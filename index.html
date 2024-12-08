@@ -18,10 +18,16 @@
 
   
 <style>
+html{
+ height: 100%;
+ width: 100%;
+}
 
 body {
   background-color: #FAF7F0;
-}
+   height: 100%;
+ width: 100%;
+} 
   
 nav {
     display: flex;
@@ -31,7 +37,121 @@ nav {
     margin-left: 118px;
     margin-right: 118px;
 }
+  
+.a1:hover {
+  background-color: #462A2A;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #FAF7F0;
+  text-decoration: none;
+  border-radius: 100px;
+  border-top: 5px solid #462A2A;
+  border-bottom: 5px solid #462A2A;
+  border-left: 30px solid #462A2A;
+  border-right: 30px solid #462A2A;
+}
+  
+a {
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #462A2A;
+  text-decoration: none;
+}
+  
+    
+.aSelected {
+  background-color: #462A2A;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #FAF7F0;
+  text-decoration: none;
+  border-radius: 100px;
+  border-top: 5px solid #462A2A;
+  border-bottom: 5px solid #462A2A;
+  border-left: 30px solid #462A2A;
+  border-right: 30px solid #462A2A;
+}
 
+
+  
+  
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+li  {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 30px;
+}
+  
+  .nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: spcae-between;
+    position: absolute;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    padding: 185px 500px;
+}
+
+  
+  .a2 {
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: white;
+  text-decoration: none;
+
+}
+  
+  .a2:hover {
+  background-color: transparent;
+  font-size: 30px;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  color: #FFBF76;
+  text-decoration: none;
+}
+
+.ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+
+.li2  {
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 30px;
+}
+
+  
+  
 
 
 h1 {
@@ -76,8 +196,8 @@ h4 {
   font-family: "La Belle Aurore", cursive;
   font-weight: 400;
   font-style: normal;
-  font-size: 128px;
-  color: #FF3967;
+  font-size: 80px;
+  color: white;
 }
   
 .writeBigP {
@@ -130,63 +250,6 @@ h4 {
   
 
   
-a:hover {
-  background-color: #462A2A;
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  color: #FAF7F0;
-  text-decoration: none;
-  border-radius: 100px;
-  border-top: 5px solid #462A2A;
-  border-bottom: 5px solid #462A2A;
-  border-left: 30px solid #462A2A;
-  border-right: 30px solid #462A2A;
-}
-  
-a {
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  color: #462A2A;
-  text-decoration: none;
-}
-  
-.aSelected {
-  background-color: #462A2A;
-  font-size: 20px;
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  color: #FAF7F0;
-  text-decoration: none;
-  border-radius: 100px;
-  border-top: 5px solid #462A2A;
-  border-bottom: 5px solid #462A2A;
-  border-left: 30px solid #462A2A;
-  border-right: 30px solid #462A2A;
-}
-
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-}
-
-
-li  {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 30px;
-}
   
     
   .textHeader {
@@ -235,7 +298,7 @@ li  {
   left: 0%;
   top: 55%;
   height: 70%;
-  width: 35%;
+  width: 25%;
   background: #861A33;
 
 }
@@ -260,10 +323,9 @@ li  {
     position: absolute;
     top: 28%;
     left: 7.25%;
-    z-index: 9999;
-
     width: 84%;
     height: 18%;
+    z-index: 9998;
     
   }
 
@@ -318,7 +380,7 @@ li  {
   .nameHeader {
     position: absolute;
     top: 140%;
-    left: 32%;
+    left: 39%;
     margin: 0;
     text-align: center;
   }
@@ -336,20 +398,69 @@ li  {
     .nameHeader3 {
     position: absolute;
     top: 100%;
-    left: 0%;
-    margin: 0;
+    left: 52%;
+    margin: 0%;
+    padding: 0 20px;
     text-align: right;
     z-index: 99999;
+    width: 70%;
+    max-width: 600px;
   }
   
     .nameHeader4 {
     position: absolute;
     top: 85%;
-    left: 0%;
-    margin: 0;
+    left: 52%;
+    margin: 0%;
+    padding: 0 20px;
     text-align: right;
     z-index: 99999;
+    width: 70%;
+    max-width: 600px;
+      
   }
+  
+  .nameHeader5 {
+    position: absolute;
+    top: 200%;
+    left: -8%;
+    margin: 0%;
+    padding: 0px 0px;
+    text-align: right;
+    z-index: 99999;
+    width: 70%;
+    max-width: 600px;
+    transform: rotate(350deg); 
+  }
+  
+    .nameHeader6 {
+    position: absolute;
+    top: 200%;
+    left: 480px;
+    margin: 0%;
+    padding: 0px 0px;
+    text-align: right;
+    z-index: 99999;
+    width: 70%;
+    max-width: 600px;
+    transform: rotate(350deg);
+      
+  }
+  
+      .nameHeader7 {
+    position: absolute;
+    top: 200%;
+    left: 1100px;
+    margin: 0%;
+    padding: 0px 0px;
+    text-align: right;
+    z-index: 99999;
+    width: 70%;
+    max-width: 600px;
+    transform: rotate(350deg);
+      
+  }
+  
   
 </style>
   
@@ -360,22 +471,21 @@ li  {
 
 <nav>
   <ul>
-    <li><a href="#home">Home</a></li>
+    <li><a class="a1" href="#home">Home</a></li>
     <li><a class="aSelected" href="#portfolio">Portfolio</a></li>
-    <li><a href="#devlog">Dev Log</a></li>
-    <li><a href="#contactme">Contact Me</a></li>
+    <li><a class="a1" href="#devlog">Dev Log</a></li>
+    <li><a class="a1" href="#contactme">Contact Me</a></li>
   </ul>
   <div class="lastName">Antequera</div>
 </nav>
   
-<nav2>
-  <ul>
-    <li><a href="#coding">Coding Projects</a></li>
-    <li><a href="#3Dart">3D Art</a></li>
-    <li><a href="#2Dart">2D Art</a></li>
+<div class="nav2">
+  <ul class="ul2">
+    <li class="li2"><a class="a2" href="#coding">Coding Projects</a></li>
+    <li class="li2"><a class="a2" href="#3Dart">3D Art</a></li>
+    <li class="li2"><a class="a2" href="#2Dart">2D Art</a></li>
   </ul>
-
-</nav2>
+</div>
 
 
   
@@ -420,6 +530,13 @@ I love working with blender and have recently being trying to learn unity as wel
 <img src="pic2.png" alt="picture" class="picImage2">
   
 <img src="pic3.png" alt="picture" class="picImage3">
+  
+  
+<h4 class="nameHeader5"> Butterflies</h4>
+  
+<h4 class="nameHeader6"> Kitchen Chaos</h4>
+  
+  <h4 class="nameHeader7"> Alchemy Lab</h4>
   
   
 </body>
